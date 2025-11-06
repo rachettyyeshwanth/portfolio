@@ -1,0 +1,135 @@
+*{
+    font-family: 'Courier New', Courier, monospace;
+}
+header{
+    text-align: center;
+    color: aliceblue;
+    background-color:rgb(23, 28, 80); ;
+    font-size: 50px;
+    border-radius: 10px;
+}
+.pic{
+    border-radius: 20px;
+    border: solid 2px navy;
+    width: 20%;
+    height: 30%;
+    margin-left: 20px;
+}
+.h3{
+    margin-left: 35%;
+    margin-top: 4px;
+    text-decoration: underline;
+    font-size: 20px;
+}
+.resume{
+    text-align: center;
+    background-color: brown;
+    border-radius: 10px;
+    width: 15%;
+    font-size: 22px;
+    margin-left: 40%;
+    margin-top: -35px;
+    padding: 8px;
+}
+.resume a{
+    color: aliceblue;
+    text-decoration: none;
+}
+.resume:hover{
+    background-color: green;
+}
+.resume a:hover{
+    color: black;
+}
+.heading1{
+    font-size: 18px;
+    margin-left: 100px;
+    text-decoration: underline;
+}
+.heading2{
+    font-size: 18px;
+    margin-left: 135px;
+    text-decoration: underline;
+}
+.heading3{
+    font-size: 18px;
+    margin-left: 87px;
+    text-decoration: underline;
+}
+.total{
+    display: flex;
+    flex-direction: row;
+}
+.para{
+    display: flex;
+    flex-direction: column;
+}
+.me{
+    font-size: 20px;
+    margin-left: 30px;
+    margin-top: -20px;
+    padding: 5%;
+}
+.education{
+    font-size: 14px;
+    border: solid 2px black;
+    border-radius: 10px;
+    margin-left: 20px;
+    margin-top: -20px;
+}
+.name{
+    margin: auto;
+    padding: 10px;
+    font-size: 16px;
+}
+.education{
+    display: flex;
+    flex-direction: row;
+    padding: 3%;
+}
+.h1{
+    text-align: center;
+    text-decoration: underline;
+    display: flex;
+    flex-direction: column;
+}
+.h2{
+    margin-left: 180px;
+    text-decoration-line: underline;
+}
+.technical{
+    font-size: 16px;
+    border: solid 2px black;
+    margin-left: 20px;
+    width: 50%;
+    text-align: center;
+    border-radius: 10px;
+}
+.subSection{
+    display: flex;
+    flex-direction: row;
+}
+.sub-section2{
+    position: absolute;
+    margin: -5% 0 0 72%;
+    text-decoration: underline;
+}
+.hobi{
+    font-size: 16px;
+    border: solid 2px black;
+    width: 50%;
+    text-align: center;
+    border-radius: 10px;
+}
+.ies{
+    margin-top: -5%;
+}
+body{
+    background-color: rgb(231, 238, 231);
+}
+@media screen and (max-width:200px){
+    body{
+        background-color:blue
+
+    }
+}
